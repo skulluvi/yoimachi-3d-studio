@@ -1,6 +1,6 @@
 /* YOIMACHI 3D STUDIO — update-safe service worker (v8) */
-const CACHE = 'yoimachi-pwa-v21';
-const APP_SHELL = ['./index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+const CACHE = 'yoimachi-pwa-v22';
+const APP_SHELL = ['./index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './sofa_sample.glb'];
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
